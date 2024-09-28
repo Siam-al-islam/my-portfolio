@@ -35,36 +35,43 @@ const Banner = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <img className='h-full' src="https://scontent.fdac24-5.fna.fbcdn.net/v/t39.30808-6/461337238_1523052049092548_8177598416639902616_n.jpg?stp=dst-jpg_p180x540&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG6XmW8xQWyyG_CrvXDcjcbRAD2ln89fltEAPaWfz1-W1nNBqXvaHi3zDH7iyykGkrxjTHjpIxET0gSVqY9A7xj&_nc_ohc=ssipijuOagcQ7kNvgFxOESU&_nc_ht=scontent.fdac24-5.fna&_nc_gid=AMNuc5H_Ee0bd2BwyIIlRZQ&oh=00_AYBA4-pieHV9q8c7P3_vZkhAJ8SCBLi_DoAFDlTUVvrbQA&oe=66FB494A" />
+                        <img className='h-[130px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/ZM29hTz/28-09-2024-20-47-20-REC.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                        <img className='h-[130px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/Qk3c3kx/28-09-2024-20-49-30-REC.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                        <img className='h-[130px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/1ZJvXnn/28-09-2024-20-50-06-REC.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                        <img className='h-[130px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/d6gYRYZ/28-09-2024-20-51-22-REC.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                        <img className='h-[130px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/zfQ12vp/28-09-2024-20-54-08-REC.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                        <img className='h-[130px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/mSh8sL7/28-09-2024-20-54-49-REC.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                        <img className='h-[130px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/JjVmDZ8/28-09-2024-20-56-31-REC.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                        <img className='h-[130px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/w0CXLkj/28-09-2024-20-58-22-REC.png" />
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <img className='w-[200px] rounded-full border-2 border-green-600 absolute' src="https://i.ibb.co.com/181pT7R/my-2.jpg" alt="" />
-        </div >
+            <div className='relative'>
+                <div className='absolute -top-8 left-5 z-10'>
+                    <div className='flex items-center gap-3'>
+                        <img className='w-[120px] lg:w-[180px] rounded-full border-4 border-[#fffffff1]' src="https://i.ibb.co.com/181pT7R/my-2.jpg" alt="" />
+                        <div className='mt-4'>
+                            <h1 className='text-white font-bold text-2xl lg:text-4xl'>Siam Al Islam</h1>
+                            <h3 className='text-gray-400 font-medium text-xs md:text-base lg:mt-2'>Web Developer</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 };
 
