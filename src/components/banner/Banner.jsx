@@ -10,7 +10,7 @@ import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules';
 
 const Banner = () => {
     return (
-        <div>
+        <div className='md:mb-40 mb-28'>
             <div>
                 <Swiper
                     autoplay={{
@@ -61,13 +61,16 @@ const Banner = () => {
                 </Swiper>
             </div>
             <div className='relative'>
-                <div className='absolute -top-8 left-5 z-10'>
+                <div className='absolute -top-8 left-5 z-10 flex items-center justify-between w-full'>
                     <div className='flex items-center gap-3'>
-                        <img className='w-[120px] lg:w-[180px] rounded-full border-4 border-[#fffffff1]' src="https://i.ibb.co.com/181pT7R/my-2.jpg" alt="" />
+                        <img className='w-[120px] lg:w-[180px] rounded-full border-4 border-[#929292f1]' src="https://i.ibb.co.com/181pT7R/my-2.jpg" alt="" />
                         <div className='mt-4'>
                             <h1 className='text-white font-bold text-2xl lg:text-4xl'>Siam Al Islam</h1>
-                            <h3 className='text-gray-400 font-medium text-xs md:text-base lg:mt-2'>Web Developer</h3>
+                            <h3 className='text-gray-400 font-medium text-xs md:text-base lg:mt-1'>Web Developer</h3>
                         </div>
+                    </div>
+                    <div className='hidden md:block'>
+                        <button className='bg-white font-medium px-5 py-2 rounded-lg mr-5'>Resume</button>
                     </div>
                 </div>
             </div>
