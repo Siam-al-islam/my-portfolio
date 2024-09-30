@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
@@ -10,9 +9,9 @@ const Navbar = () => {
     </>
     return (
         <div>
-            <div className="navbar justify-between">
+            <div className="navbar justify-between p-0">
                 <div>
-                    <div className="">
+                    <div>
                         <div className="dropdown">
                             <div tabIndex={0} role="button" className="btn bg-[#414141b5] border-none text-white lg:hidden">
                                 <svg
@@ -30,7 +29,7 @@ const Navbar = () => {
                             </div>
                             <ul
                                 tabIndex={0}
-                                className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow bg-[#000000] gap-2">
                                 {navLinks}
                             </ul>
                         </div>
