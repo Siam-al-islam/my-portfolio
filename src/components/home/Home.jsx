@@ -11,7 +11,7 @@ const Home = () => {
                 </div>
                 <Social />
             </div>
-            <hr className="mt-8 border border-[#c2c2c220]" />
+            <hr className="mt-8 border border-[#d4d4d415]" />
         </div>
     );
 };

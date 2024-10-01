@@ -41,7 +41,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="md:hidden">
-                    <button className='bg-white font-medium px-4 py-2 rounded-lg'>Resume</button>
+                    <button className='bg-white font-medium px-4 py-2 rounded-lg text-black'>Resume</button>
                 </div>
             </div>
         </div>

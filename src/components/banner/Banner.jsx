@@ -70,7 +70,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className='hidden md:block'>
-                        <button className='bg-white font-medium px-5 py-2 rounded-lg mr-5'>Resume</button>
+                        <button className='bg-white font-medium px-5 py-2 rounded-lg mr-5 text-black'>Resume</button>
                     </div>
                 </div>
             </div>
