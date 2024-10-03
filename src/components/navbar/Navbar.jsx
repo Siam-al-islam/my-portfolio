@@ -2,10 +2,14 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const navLinks = <>
-        <li className='bg-[#373737b4] text-white font-medium rounded-3xl'><NavLink to="/home">Home</NavLink></li>
-        <li className='bg-[#373737b4] text-white font-medium rounded-3xl'><NavLink to="/skills">Skills</NavLink></li>
-        <li className='bg-[#373737b4] text-white font-medium rounded-3xl'><NavLink to="/works">Works</NavLink></li>
-        <li className='bg-[#373737b4] text-white font-medium rounded-3xl'><NavLink to="/resume">Resume</NavLink></li>
+        <li className='text-white font-medium rounded-3xl'><NavLink className={({ isActive }) => isActive ? 'bg-[rgb(43,87,73)] font-bold border border-white rounded-3xl' : 'rounded-3xl bg-[rgb(21, 43, 36)] border border-white'} to="/">Home</NavLink>
+        </li>
+        <li className='text-white font-medium rounded-3xl'><NavLink className={({ isActive }) => isActive ? 'font-bold border border-white rounded-3xl' : 'rounded-3xl bg-[rgb(21, 43, 36)] border border-white'} to="/skills">Skills</NavLink>
+        </li>
+        <li className='text-white font-medium rounded-3xl'><NavLink className={({ isActive }) => isActive ? 'font-bold border border-white rounded-3xl' : 'rounded-3xl bg-[rgb(21, 43, 36)] border border-white'} to="/works">Works</NavLink>
+        </li>
+        <li className='text-white font-medium rounded-3xl'><NavLink className={({ isActive }) => isActive ? 'font-bold border border-white rounded-3xl' : 'rounded-3xl bg-[rgb(21, 43, 36)] border border-white'} to="/resume">Resume</NavLink>
+        </li>
     </>
     return (
         <div>
@@ -29,13 +33,13 @@ const Navbar = () => {
                             </div>
                             <ul
                                 tabIndex={0}
-                                className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow bg-[#000000] gap-2">
+                                className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-80 p-2 shadow bg-[#24443e] gap-2 relative">
                                 {navLinks}
                             </ul>
                         </div>
                     </div>
                     <div className="navbar-center hidden lg:flex">
-                        <ul className="menu menu-horizontal px-1 gap-2">
+                        <ul className="menu menu-horizontal px-1 gap-3">
                             {navLinks}
                         </ul>
                     </div>

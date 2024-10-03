@@ -3,7 +3,7 @@ import Social from './Social';
 
 const Footer = () => {
     return (
-        <footer className="footer pt-20 pb-10 px-3">
+        <footer className="footer pt-20 pb-10 px-3 justify-between items-center">
             <aside>
                 <p>
                     <span className='text-white text-xl font-semibold uppercase'>Siam Al Islam</span>

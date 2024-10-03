@@ -35,28 +35,28 @@ const Banner = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <img className='h-[130px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/ZM29hTz/28-09-2024-20-47-20-REC.png" />
+                        <img className='h-[150px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/ZM29hTz/28-09-2024-20-47-20-REC.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='h-[130px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/Qk3c3kx/28-09-2024-20-49-30-REC.png" />
+                        <img className='h-[150px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/Qk3c3kx/28-09-2024-20-49-30-REC.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='h-[130px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/1ZJvXnn/28-09-2024-20-50-06-REC.png" />
+                        <img className='h-[150px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/1ZJvXnn/28-09-2024-20-50-06-REC.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='h-[130px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/d6gYRYZ/28-09-2024-20-51-22-REC.png" />
+                        <img className='h-[150px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/d6gYRYZ/28-09-2024-20-51-22-REC.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='h-[130px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/zfQ12vp/28-09-2024-20-54-08-REC.png" />
+                        <img className='h-[150px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/zfQ12vp/28-09-2024-20-54-08-REC.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='h-[130px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/mSh8sL7/28-09-2024-20-54-49-REC.png" />
+                        <img className='h-[150px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/mSh8sL7/28-09-2024-20-54-49-REC.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='h-[130px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/JjVmDZ8/28-09-2024-20-56-31-REC.png" />
+                        <img className='h-[150px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/JjVmDZ8/28-09-2024-20-56-31-REC.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img className='h-[130px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/w0CXLkj/28-09-2024-20-58-22-REC.png" />
+                        <img className='h-[150px] md:h-[200px] lg:h-[300px] object-cover' src="https://i.ibb.co.com/w0CXLkj/28-09-2024-20-58-22-REC.png" />
                     </SwiperSlide>
                 </Swiper>
             </div>
@@ -64,7 +64,7 @@ const Banner = () => {
                 <div className='absolute -top-8 left-5 z-10 flex items-center justify-between w-full'>
                     <div className='flex items-center gap-3'>
                         <img className='w-[120px] lg:w-[160px] rounded-full border-4 border-[#929292f1]' src="https://i.ibb.co.com/181pT7R/my-2.jpg" alt="" />
-                        <div className='mt-4'>
+                        <div className='mt-5'>
                             <h1 className='text-white font-semibold text-xl md:text-3xl'>Siam Al Islam</h1>
                             <h3 className='text-gray-400 font-medium text-xs md:text-base lg:mt-1'>Web Developer</h3>
                         </div>
