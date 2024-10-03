@@ -3,6 +3,7 @@ import Banner from './components/banner/Banner'
 import Home from './components/home/Home'
 import Navbar from './components/navbar/Navbar'
 import Resume from './components/resume/Resume'
+import Footer from './components/shared/Footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Home />
         <Resume />
       </div>
+      <Footer />
     </div>
   )
 }

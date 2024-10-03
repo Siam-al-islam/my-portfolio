@@ -1,6 +1,6 @@
 const Social = () => {
     return (
-        <div className="mt-5">
+        <div>
             <h1 className="text-[#ffffffd1] font-semibold uppercase">Connect With Me</h1>
             <div className="mt-5 flex gap-4">
                 <div className="animation transition">

@@ -1,9 +1,8 @@
 html,
 body {
-    background-color: rgba(0, 0, 0, 0.951);
+    background-color: rgb(15, 23, 42);
     position: relative;
     font-family: "Poppins", system-ui;
-    padding-bottom: 50px;
 }
 
 .swiper {

@@ -89,8 +89,17 @@ const Resume = () => {
                         <img className="w-7" src="https://i.ibb.co.com/MMFrb4c/figma-957c0ab9.png" alt="" />
                         <h3 className="text-white text-[14px]">Figma</h3>
                     </div>
+                    <div className="flex gap-2 items-center">
+                        <img className="w-7 rounded-full" src="https://i.ibb.co.com/chgxShZ/github-6980894-960-720.webp" alt="" />
+                        <h3 className="text-white text-[14px]">GitHub</h3>
+                    </div>
+                    <div className="flex gap-2 items-center">
+                        <img className="w-7 rounded-full" src="https://i.ibb.co.com/Y8jtcpY/0-BRl-u-L7-N9-LF-1hi-D.png" alt="" />
+                        <h3 className="text-white text-[14px]">Netlify</h3>
+                    </div>
                 </div>
             </div>
+            <hr className="border border-[#d4d4d415] mt-4" />
         </div>
     );
 };
