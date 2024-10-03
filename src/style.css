@@ -24,3 +24,23 @@ body {
 .animation:hover {
     transform: scale(1.1);
 }
+
+
+.resume-btn {
+    background-image: linear-gradient(to right, rgb(13, 45, 51) 0%, rgb(27, 62, 51) 50%, rgba(27, 58, 54, 0.703) 75%, rgb(57, 78, 24) 100%);
+    padding: 8px 24px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.3s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 1px solid rgba(136, 220, 0, 0.555);
+}
+
+.resume-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}

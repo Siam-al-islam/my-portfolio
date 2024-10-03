@@ -17,7 +17,7 @@ const Navbar = () => {
                 <div>
                     <div>
                         <div className="dropdown">
-                            <div tabIndex={0} role="button" className="btn bg-[#414141b5] border-none text-white lg:hidden">
+                            <div tabIndex={0} role="button" className="btn bg-[#335f5386] border-none text-white lg:hidden">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-5 w-5"
@@ -33,7 +33,7 @@ const Navbar = () => {
                             </div>
                             <ul
                                 tabIndex={0}
-                                className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-80 p-2 shadow bg-[#24443e] gap-2 relative">
+                                className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-60 p-2 shadow bg-[#24443e] gap-2 relative">
                                 {navLinks}
                             </ul>
                         </div>
@@ -45,7 +45,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="md:hidden">
-                    <button className='bg-white font-medium px-4 py-2 rounded-lg text-black'>Resume</button>
+                    <button className='resume-btn'>Resume</button>
                 </div>
             </div>
         </div>
