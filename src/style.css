@@ -3,6 +3,8 @@ body {
     background-image: linear-gradient(rgb(5, 22, 25), rgb(21, 43, 36), rgb(35, 39, 28));
     background-repeat: no-repeat;
     font-family: "Poppins", system-ui;
+    min-height: 100vh;
+    scroll-behavior: smooth;
 }
 
 .swiper {

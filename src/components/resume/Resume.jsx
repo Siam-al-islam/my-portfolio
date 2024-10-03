@@ -1,6 +1,6 @@
 const Resume = () => {
     return (
-        <div className="mt-5">
+        <div id="skills" className="mt-5">
             <div>
                 <h1 className="text-xl text-white font-semibold uppercase">Resume</h1>
             </div>
