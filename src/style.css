@@ -1,6 +1,7 @@
 html,
 body {
-    background-color: rgb(15, 23, 42);
+    /* background-color: rgb(5, 22, 25); */
+    background-image: linear-gradient(rgb(5, 22, 25), rgb(21, 43, 36), rgb(35, 39, 28));
     position: relative;
     font-family: "Poppins", system-ui;
 }
