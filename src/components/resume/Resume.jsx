@@ -13,6 +13,10 @@ const Resume = () => {
                         <h3 className="text-white text-[14px]">Javascript</h3>
                     </div>
                     <div className="flex gap-2 items-center">
+                        <img className="w-6" src="https://i.ibb.co.com/Wy1Tt9r/typescript.png" alt="" />
+                        <h3 className="text-white text-[14px]">Typescript</h3>
+                    </div>
+                    <div className="flex gap-2 items-center">
                         <img className="w-7" src="https://i.ibb.co.com/GCfdM0S/c-7491b221.png" alt="" />
                         <h3 className="text-white text-[14px]">C/C++</h3>
                     </div>
@@ -58,6 +62,10 @@ const Resume = () => {
                     <div className="flex gap-2 items-center">
                         <img className="w-7" src="https://i.ibb.co.com/RCBPzxN/bs-1a8708b7.png" alt="" />
                         <h3 className="text-white text-[14px]">Bootstrap</h3>
+                    </div>
+                    <div className="flex gap-2 items-center">
+                        <img className="w-7" src="https://i.ibb.co.com/xzpFYby/76870092.png" alt="" />
+                        <h3 className="text-white text-[14px]">daisyUI</h3>
                     </div>
                 </div>
             </div>
