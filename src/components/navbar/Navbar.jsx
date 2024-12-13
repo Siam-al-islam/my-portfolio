@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const navLinks = <>
@@ -8,7 +8,7 @@ const Navbar = () => {
         </li>
         <li className='text-white font-medium rounded-3xl'><NavLink className={({ isActive }) => isActive ? 'font-bold border border-white rounded-3xl' : 'rounded-3xl bg-[rgb(21, 43, 36)] border border-white'} to="/works">Works</NavLink>
         </li>
-        <li className='text-white font-medium rounded-3xl'><NavLink className={({ isActive }) => isActive ? 'font-bold border border-white rounded-3xl' : 'rounded-3xl bg-[rgb(21, 43, 36)] border border-white'} to="/resume">Resume</NavLink>
+        <li className='text-white font-medium rounded-3xl'><NavLink className={({ isActive }) => isActive ? 'font-bold border border-white rounded-3xl' : 'rounded-3xl bg-[rgb(21, 43, 36)] border border-white'} to="/resumeImage">Resume</NavLink>
         </li>
     </>
     return (
@@ -45,7 +45,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="md:hidden">
-                    <button className='resume-btn'>Resume</button>
+                    <button className='resume-btn'><Link to="/resumeImage">Resume</Link></button>
                 </div>
             </div>
         </div>

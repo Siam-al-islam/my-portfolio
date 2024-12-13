@@ -7,6 +7,7 @@ import 'swiper/css/pagination';
 import '../../../src/style.css';
 
 import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -70,11 +71,11 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className='hidden md:block'>
-                        <button className='resume-btn mr-8'>Resume</button>
+                        <Link to="/resumeImage"><button className='resume-btn mr-8'>Resume</button></Link>
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

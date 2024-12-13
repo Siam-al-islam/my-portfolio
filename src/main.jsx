@@ -8,6 +8,9 @@ import {
 } from "react-router-dom";
 import Home from './components/home/Home.jsx';
 import ErrorPage from './components/errorPage/ErrorPage.jsx';
+import ResumeImage from './components/resume/ResumeImage.jsx';
+import Skills from './components/navbar/Skills.jsx';
+import Works from './components/navbar/Works.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +20,18 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />
+      },
+      {
+        path: "/skills",
+        element: <Skills />
+      },
+      {
+        path: "/works",
+        element: <Works />
+      },
+      {
+        path: "/resumeImage",
+        element: <ResumeImage />
       },
     ],
     errorElement: <ErrorPage />
