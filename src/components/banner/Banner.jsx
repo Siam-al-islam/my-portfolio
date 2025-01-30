@@ -67,7 +67,7 @@ const Banner = () => {
                         <img className='w-[120px] lg:w-[160px] rounded-full border-4 border-[#76a651c2]' src="https://i.ibb.co.com/181pT7R/my-2.jpg" alt="" />
                         <div className='mt-5'>
                             <h1 className='text-white font-semibold text-xl md:text-3xl'>Siam Al Islam</h1>
-                            <h3 className='text-gray-400 font-medium text-xs md:text-base lg:mt-1'>Web Developer</h3>
+                            <h3 className='text-gray-400 font-medium text-xs md:text-base lg:mt-1 auto-type'>Web Developer</h3>
                         </div>
                     </div>
                     <div className='hidden md:block'>
@@ -75,7 +75,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-        </div >
+        </div>
     );
 };
 
